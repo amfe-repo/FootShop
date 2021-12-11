@@ -1,0 +1,109 @@
+/*Content style*/
+
+.container .content
+{
+    background-color: var(--color-walk);
+    width: 100%;
+    height: 70.5em;
+    grid-column: span 3;
+}
+
+.container .content .content_container
+{
+    background-color: #fff;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.239);
+}
+
+.container .content .content_container .f_component
+{
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.container .content .content_container .f_component p
+{
+    color: #707070;
+    font-weight: normal;
+    font-size: 1.4em;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 1.5em;
+    display: inline;
+}
+
+.container .content .content_container .f_component h2
+{
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--color-primary);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 27%);
+}
+
+.container .content .content_container .frm_register
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.container .content .content_container form h2
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+.container .content .content_container form input[type=text]
+{
+    font-size: 1em;
+    width: 100%;
+    height: 3em;
+    border: 1px slategray solid;
+    padding-left: 10px;
+}
+
+.container .content .content_container form span
+{
+    position: relative;
+    bottom: 2em;
+    left: 0.9em;
+    color: slategray;
+    transition: 0.5s;
+    font-size: 1em;
+    pointer-events: none;
+    display: inline-block;
+    
+}
+
+
+.container .content .content_container form input[type=button]
+{
+    width: 10em;
+    height: 2em;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1.5em;
+    background-color: var(--color-primary);
+    border: none;
+    margin-left: 3.4em;
+}
+
+.container .content .content_container form input[type=button]:hover
+{
+    background-color: var(--color-sub-primary);
+    cursor: pointer;
+}
+
